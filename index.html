@@ -56,7 +56,7 @@
     .link-script:hover{text-decoration:underline}
 
     /* hero */
-    #home{min-height:90vh;display:flex;flex-direction:column;justify-content:center;padding:8rem 2.2rem 4rem;max-width:1100px;margin:0 auto;position:relative}
+    #home{min-height:78vh;display:flex;flex-direction:column;justify-content:center;padding:8.5rem 2.2rem 4.5rem;max-width:1100px;margin:0 auto;position:relative}
     .eyebrow{font-family:'Caveat',cursive;font-weight:700;color:var(--blue);font-size:1.5rem;margin-bottom:.4rem;display:block}
     h1{font-size:clamp(2.2rem,7vw,5.6rem);font-weight:900;line-height:1.04;letter-spacing:-.02em;margin-bottom:1.4rem;max-width:16ch}
     .ital-blue{font-style:italic;color:var(--blue)}
@@ -74,8 +74,8 @@
     /* stats band */
     .stats{background:var(--navy);color:#fff;padding:3.2rem 2.2rem;border-top:3px solid var(--ink);border-bottom:3px solid var(--ink)}
     .stats-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;text-align:center}
-    .stat .n{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2rem,6vw,3rem);color:#6f8cf2;line-height:1}
-    .stat .l{font-size:.9rem;color:#c3cae3;margin-top:.35rem}
+    .stat .n{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(1.7rem,6vw,3rem);color:#6f8cf2;line-height:1}
+    .stat .l{font-size:.9rem;color:#c3cae3;margin-top:.35rem;line-height:1.3}
 
     /* animations */
     @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
@@ -176,13 +176,22 @@
     @media(max-width:780px){
       nav{padding:.8rem 1.2rem}
       section,.why-wrap,.donate-wrap{padding:3.5rem 1.3rem}
-      #home{padding:7rem 1.3rem 3rem}
+      #home{min-height:auto;padding:6.5rem 1.3rem 3rem}
       .about{grid-template-columns:1fr;gap:2rem}
-      .stats-inner{grid-template-columns:1fr 1fr;gap:1.8rem}
+      .stats{padding:2.6rem 1.2rem}
+      .stats-inner{gap:.7rem}
+      .stat .l{font-size:.74rem}
       .give-grid{grid-template-columns:1fr}
+      .card,.panel,.goalbox,.fcard{box-shadow:4px 4px 0 var(--ink)}
     }
-    @media(max-width:460px){.checklist{grid-template-columns:1fr}}
-    @media(max-width:1024px){.shape,.pencil-doodle{display:none}}
+    @media(max-width:460px){
+      .checklist{grid-template-columns:1fr}
+      .hero-btns{flex-direction:column;align-items:flex-start;gap:.9rem}
+      .hero-btns .btn{width:100%;justify-content:center}
+      .stat .n{font-size:clamp(1.5rem,8vw,2rem)}
+      .stats-inner{gap:.4rem}
+    }
+    @media(max-width:1100px){.shape,.pencil-doodle{display:none}}
   </style>
 </head>
 <body>
@@ -341,7 +350,6 @@
     <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=thepencilprojectofficial@gmail.com&amp;su=Hello%20Pencil%20Project" target="_blank" rel="noopener">thepencilprojectofficial@gmail.com</a>
   </div>
   <div class="f-copy">© 2026 The Pencil Project · Made in Austin, TX</div>
-  <div class="f-made">Made by Claude Code</div>
 </footer>
 
 <script>
