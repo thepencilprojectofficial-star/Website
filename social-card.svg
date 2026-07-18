@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The Pencil Project</title>
+  <desc id="desc">Donate school supplies in Austin and help students arrive ready to learn.</desc>
+  <rect width="1200" height="630" fill="#ece7d8" />
+  <circle cx="1060" cy="94" r="180" fill="#f7c92e" />
+  <circle cx="1120" cy="590" r="215" fill="#2f4bd1" />
+  <path d="M55 530 C 320 410 510 650 790 500" fill="none" stroke="#f7c92e" stroke-width="22" stroke-linecap="round" />
+  <rect x="72" y="64" width="94" height="94" rx="22" fill="#16204a" />
+  <g transform="translate(78 70) scale(.16) rotate(-38 256 256)">
+    <rect x="226" y="92" width="60" height="272" rx="12" fill="#f7c92e" stroke="#fffdf7" stroke-width="12" />
+    <rect x="226" y="92" width="60" height="58" rx="12" fill="#2f4bd1" stroke="#fffdf7" stroke-width="12" />
+    <path d="M226 364h60l-30 64z" fill="#fffdf7" stroke="#fffdf7" stroke-width="12" stroke-linejoin="round" />
+  </g>
+  <text x="190" y="125" fill="#16204a" font-family="Georgia, serif" font-size="48" font-weight="700">The Pencil Project</text>
+  <text x="72" y="278" fill="#16204a" font-family="Georgia, serif" font-size="78" font-weight="800">Every kid deserves</text>
+  <text x="72" y="365" fill="#2f4bd1" font-family="Georgia, serif" font-size="78" font-style="italic" font-weight="800">a full pencil case.</text>
+  <text x="76" y="445" fill="#54607e" font-family="Arial, sans-serif" font-size="33">Student-run school supply drives in Austin, Texas</text>
+  <text x="76" y="560" fill="#16204a" font-family="Arial, sans-serif" font-size="30" font-weight="700">thepencilproject.org</text>
+</svg>
